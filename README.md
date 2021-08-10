@@ -5058,7 +5058,8 @@
 
                 ```
             - 运行
-                - `env FLASK_APP=a.py flask run`
+                - `set FLASK_APP=a.py`
+                - `python3 -m  flask run --host=0.0.0.0`
         - 舒服
     - medium
         - `<script>alert(document.cookie)</script>`
